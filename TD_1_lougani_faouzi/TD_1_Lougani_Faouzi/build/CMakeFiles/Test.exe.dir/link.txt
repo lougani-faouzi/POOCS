@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Test.exe.dir/test.cpp.o  -o Test.exe  -Wl,-rpath,/home/lougani/Bureau/td1/build/mylib mylib/libmylib.so /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a -lpthread 

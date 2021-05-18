@@ -1,0 +1,5 @@
+if(EXISTS "/home/lougani/Bureau/td1/build/Test.exe[1]_tests.cmake")
+  include("/home/lougani/Bureau/td1/build/Test.exe[1]_tests.cmake")
+else()
+  add_test(Test.exe_NOT_BUILT Test.exe_NOT_BUILT)
+endif()

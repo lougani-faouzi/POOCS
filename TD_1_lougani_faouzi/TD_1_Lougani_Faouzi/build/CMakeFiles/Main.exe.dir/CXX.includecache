@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../mylib/mylib.h
+
+/home/lougani/Bureau/td1/main.cpp
+mylib.h
+/home/lougani/Bureau/td1/mylib.h
+

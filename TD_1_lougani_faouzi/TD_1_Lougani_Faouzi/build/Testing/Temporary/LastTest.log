@@ -1,0 +1,87 @@
+Start testing: Nov 11 18:10 CET
+----------------------------------------------------------
+1/3 Testing: UnitTest.MylibTestPrintTest
+1/3 Test: UnitTest.MylibTestPrintTest
+Command: "/home/lougani/Bureau/td1/build/Test.exe" "--gtest_filter=UnitTest.MylibTestPrintTest" "--gtest_also_run_disabled_tests"
+Directory: /home/lougani/Bureau/td1/build
+"UnitTest.MylibTestPrintTest" start time: Nov 11 18:10 CET
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.MylibTestPrintTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.MylibTestPrintTest
+MyLib::MyClass::print()
+[       OK ] UnitTest.MylibTestPrintTest (0 ms)
+[----------] 1 test from UnitTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.MylibTestPrintTest" end time: Nov 11 18:10 CET
+"UnitTest.MylibTestPrintTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: UnitTest.MylibTestPrintTest1
+2/3 Test: UnitTest.MylibTestPrintTest1
+Command: "/home/lougani/Bureau/td1/build/Test.exe" "--gtest_filter=UnitTest.MylibTestPrintTest1" "--gtest_also_run_disabled_tests"
+Directory: /home/lougani/Bureau/td1/build
+"UnitTest.MylibTestPrintTest1" start time: Nov 11 18:10 CET
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.MylibTestPrintTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.MylibTestPrintTest1
+[       OK ] UnitTest.MylibTestPrintTest1 (0 ms)
+[----------] 1 test from UnitTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.MylibTestPrintTest1" end time: Nov 11 18:10 CET
+"UnitTest.MylibTestPrintTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: AllTestInTest
+3/3 Test: AllTestInTest
+Command: "/home/lougani/Bureau/td1/build/Test.exe"
+Directory: /home/lougani/Bureau/td1/build
+"AllTestInTest" start time: Nov 11 18:10 CET
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from UnitTest
+[ RUN      ] UnitTest.MylibTestPrintTest
+MyLib::MyClass::print()
+[       OK ] UnitTest.MylibTestPrintTest (0 ms)
+[ RUN      ] UnitTest.MylibTestPrintTest1
+[       OK ] UnitTest.MylibTestPrintTest1 (0 ms)
+[----------] 2 tests from UnitTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AllTestInTest" end time: Nov 11 18:10 CET
+"AllTestInTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 11 18:10 CET

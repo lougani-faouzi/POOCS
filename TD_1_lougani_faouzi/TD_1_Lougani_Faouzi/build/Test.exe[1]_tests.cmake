@@ -1,0 +1,5 @@
+add_test( UnitTest.MylibTestPrintTest /home/lougani/Bureau/td1/build/Test.exe [==[--gtest_filter=UnitTest.MylibTestPrintTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( UnitTest.MylibTestPrintTest PROPERTIES WORKING_DIRECTORY /home/lougani/Bureau/td1/build)
+add_test( UnitTest.MylibTestPrintTest1 /home/lougani/Bureau/td1/build/Test.exe [==[--gtest_filter=UnitTest.MylibTestPrintTest1]==] --gtest_also_run_disabled_tests)
+set_tests_properties( UnitTest.MylibTestPrintTest1 PROPERTIES WORKING_DIRECTORY /home/lougani/Bureau/td1/build)
+set( Test.exe_TESTS UnitTest.MylibTestPrintTest UnitTest.MylibTestPrintTest1)
