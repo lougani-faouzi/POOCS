@@ -1,0 +1,28 @@
+TD_Lougani_Faouzi_M1CHPS
+_________________________________________________________
+TD1:
+_________________________________________________________
+-Comme l'installation de gTest n'a pas pu demarré avec 
+les instructions du tp sous pretexte des variables PATH donc j'ai 
+J'ai fait l'installation de gTest avec :
+
+#!/bin/bash
+sudo apt-get install libgtest-dev
+sudo apt-get install cmake
+
+-Pour l'etude j'ai défini l interval [0,1] et un pas de 0.2
+____________________________________________________________
+TD2:
+____________________________________________________________
+-J'ai pas créer de dossier lib pour d'une part manipuler le fichier CMakeLists.txt
+afin de se familiariser avec .plutard si on aura besoins une arboressance sera alors mise en place 
+-J ai crée les fonctions dans un premier temps dans le main
+avant de les faire deplacer dans main_functions.h
+-D'aprés l'affichage de test il ya d'autres fonctions qu'on va exploiter aprés 
+donc je les ai définies mais sans contenu :ComputeSteadyState(),ComputeUnsteadyState()
+ces dernieres sont sans parametres ni contenu pour l'instant.
+
+
+
+
+
