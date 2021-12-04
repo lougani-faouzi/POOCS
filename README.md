@@ -1,3 +1,4 @@
-# POOCS
+# SIMULATEUR DE PARTICULES 
 
-Les tds de programmation orienté objet pour le calcul scientifique
+Programmation orienté objet pour le calcul scientifique
+C++ moderne 
